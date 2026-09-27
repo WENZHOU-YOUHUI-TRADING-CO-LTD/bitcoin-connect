@@ -37,6 +37,10 @@
             .setAttribute('invoice', invoice.paymentRequest);
         });
     </script>
+    <script type="module">
+      import {injectSpeedInsights} from '@vercel/speed-insights';
+      injectSpeedInsights();
+    </script>
   </head>
   <body>
     <div class="container">
