@@ -70,6 +70,10 @@
         console.info('onModalClosed callback');
       });
     </script>
+    <script type="module">
+      import {injectSpeedInsights} from '@vercel/speed-insights';
+      injectSpeedInsights();
+    </script>
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
